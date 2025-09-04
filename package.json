@@ -1,0 +1,29 @@
+{
+  "name": "inventory-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node netlify/functions/api.js"
+  },
+  "dependencies": {
+    "@netlify/functions": "^4.2.5",
+    "@types/express": "^5.0.3",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "helmet": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.6.0",
+    "morgan": "^1.10.1",
+    "nodemailer": "^7.0.5",
+    "openai": "^5.13.1",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
